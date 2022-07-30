@@ -1,0 +1,86 @@
+.parent-div{
+    display: flex;
+    height: 100vh;
+    padding: 2%;
+    background-color: aliceblue;
+}
+.form-div{
+    width: 80%;
+    padding: 1%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.login{
+    padding: 5%;
+    width: 90%;
+    margin: auto;
+}
+div.line-div{
+    width: 10%;
+    border-top: 3px solid rgb(13,202,122);
+    margin: auto;
+}
+button.sign-in{
+    color: white;
+    background-color: rgb(13,202,122);
+    border: none;
+    outline: none;
+    padding: 6px 22px;
+    border-radius: 16px;
+}
+input[type='email']:focus{
+    outline: none;
+    border: none;
+    border: 1px solid black;
+}
+input.email{
+    border: 3px solid #ddd;
+    padding: 1%;
+}
+input.pd{
+    border: 3px solid #ddd;
+    padding: 1%;
+}
+input[type='password']:focus{
+    outline: none;
+    border: none;
+    border: 1px solid black;
+}
+.text-div{
+    background-color: rgb(13,202,122);
+    width: 40%;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+div.line-div1{
+    width: 20%;
+    border-top: 3px solid white;
+    margin: auto;
+}
+button.signup{
+    border: none;
+    outline: none;
+    background-color: rgb(13,202,122);
+    color: white;
+    padding: 6px 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+button.signup:hover{
+    border: none;
+    outline: none;
+    color: rgb(13,202,122);
+    background-color: white;
+    padding: 6px 50px;
+    border: 2px solid rgb(13,202,122);
+    border-radius: 20px;
+}

@@ -1,0 +1,30 @@
+.main-div{
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(13,202,122);
+    flex-wrap: wrap;
+}
+.side-bar {
+    width: 20%;
+    background-color: rgb(13,202,122);
+    height: 134vh;
+  }
+  
+  .side-bar ul li {
+    list-style-type: none;
+    color: white ;
+    padding: 8%;
+  }
+  .parent-div {
+    display: flex;
+  }
+  
+  .table-div {
+    width: 76%;
+  }
+  ul li a{
+    color: white;
+    text-decoration: none;
+  }

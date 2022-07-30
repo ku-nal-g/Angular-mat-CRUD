@@ -1,0 +1,32 @@
+<!--toppbar-->
+<div class="main-div">
+    <div class="child-div">
+        <a style="color: white;" class="me-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+              </svg>
+        </a>
+        <span style="font-size: 1.3rem;">Dashboard</span>
+    </div>
+    <div class="profie-div">
+        <img class="img-fluid img-rounded me-2" style="border-radius: 12px;" width="35" src="assets/avatar.png" alt="user_profile">
+        <span style="font-size: 16px;">John Doe</span>
+    </div>
+</div>
+
+<!--sidebar-->
+<div class="parent-div">
+    <div class="side-bar">
+        <div class="links-div">
+          <ul>
+            <li><a routerLink="/dashboard/home">Home</a></li>
+            <li><a routerLink="/dashboard/about">About</a></li>
+            <li><a routerLink="/dashboard/contact">Contact</a></li>
+          </ul>
+          <button style="background-color: white !important; color:black; margin-left: 18%;" (click)="routeToLogin()" class="btn">Logout</button>
+        </div>
+      </div>
+      <div class="table-div mt-4 ms-3">
+        <router-outlet></router-outlet>
+      </div>
+</div>
