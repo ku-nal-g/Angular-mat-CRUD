@@ -1,15 +1,15 @@
 
-  <div class="mb-3">
+  <div class="mb-2">
     <div class="row">
-      <div class="col-md-4">
-        <button title="add user" data-toggle="modal" data-target="#addUserModal" class="btn text-end">Add User</button>
+      <div class="col-md-4 pt-2">
+        <span>{{today |date :'medium'}}</span>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 pt-2 text-center">
         <span class="ms-auto">Latitude  : {{this.latitude}}</span>&nbsp;
         <span class="ms-auto">Longitude : {{this.longitude}}</span>
       </div>
-      <div class="col-md-4">
-        <span style="float: right;">{{today |date :'medium'}}</span>
+      <div class="col-md-4 text-end">
+        <button title="add user" data-toggle="modal" data-target="#addUserModal" class="btn text-end">Add User</button>
       </div>
     </div>
   </div>
@@ -100,7 +100,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h3 class="modal-title" id="exampleModalLabel">Delete User</h3>
-        <button style="border: none;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button style="border: none;" type="button" class="close btn-danger" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -122,7 +122,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h2 class="modal-title" id="exampleModalLongTitle">Edit User</h2>
-        <button style="border: none;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button style="border: none;" type="button" class="close btn-danger" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -213,7 +213,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h2 class="modal-title" id="exampleModalLongTitle">Add User</h2>
-        <button style="border: none;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button style="border: none;" type="button" class="close btn-danger" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>

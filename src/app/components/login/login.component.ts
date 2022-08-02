@@ -21,6 +21,8 @@ export class LoginComponent implements OnInit {
 
   isHidden: boolean = true;
 
+  maxDate:any;
+
   constructor(private fb: FormBuilder, private auth: AuthService, private router: Router, private toastr: ToastrService) { }
 
   ngOnInit(): void {
@@ -37,6 +39,7 @@ export class LoginComponent implements OnInit {
         isChecked: loginDetails.isChecked
       })
     };
+    this.maxDate = new Date().toISOString().split("T")[0];
   }
 
   createSignInGroup() {

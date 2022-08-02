@@ -30,7 +30,7 @@
         <div class="card mb-3" style="width: 20rem;">
           <img class="card-img-top" [src]="this.newsList[i].urlToImage" alt="Oops No image found...">
           <div class="card-body text-center">
-            <h5 class="card-title">{{this.newsList[i].source.name}}</h5>
+            <h5 class="card-title" style="text-decoration: underline;">{{this.newsList[i].source.name}}</h5>
             <span>Published At: {{this.localDateArray[i] |date :'medium'}}</span><br><br>
             <small class="card-text">{{this.newsList[i].description}}</small>
             <div class="text-center">
